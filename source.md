@@ -24,7 +24,7 @@ docker image rm -f (id da image)
 ### Ambiente docker para Banco de Dados
 
 ```
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5433:5432 postgres
 
 ```
 ### Acessar Bash do Container
