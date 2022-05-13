@@ -11,7 +11,7 @@ public class connectionPostgress {
 		
 		// String de Conexão
 		
-		String URL = "jdbc:postgresql://localhost:5433/postgres";
+		String URL = "jdbc:postgresql://localhost:5433/java";
 	    String usuario = "postgres";
 	    String senha = "mysecretpassword";
 	    
