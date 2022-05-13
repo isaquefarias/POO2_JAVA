@@ -23,9 +23,9 @@ public class ContatoProgram {
 					//Statement statement = connection.createStatement();
 					
 					PreparedStatement statement = connection.prepareStatement(sql);
-					statement.setString(1, "andreson");
-					statement.setString(2, "gusmao");
-					statement.setString(3, "flavio@email.com");
+					statement.setString(1, "isaque");
+					statement.setString(2, "farias");
+					statement.setString(3, "isaque@email.com");
 					
 					int rows = statement.executeUpdate();
 					if (rows > 0) {
